@@ -1,0 +1,80 @@
+/* General */
+body{
+  font-family: Century Gothic;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+.seccion{
+  box-shadow: 0px 7px 6px 4px rgba(0,0,0,0.3);
+}
+.barra{
+  color: green;
+}
+
+/* Barra de navegación*/
+#nav-bar{
+  height: 30px;
+  background-color: #FFF;
+}
+#titulo{
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: text;
+  padding-left: 5%;
+}
+#guion{
+  color: black;
+}
+#separador{
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(100, 255, 100, 1), green, rgba(100, 255, 100, 1));
+}
+
+/* Vista inicial */
+#inicio{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url("https://iso.500px.com/wp-content/uploads/2016/09/stock-photo-160988895-1500x1000.jpg");
+  background-size: cover;
+  padding-top: 30vh;
+}
+#texto-inicio{
+  color: white;
+  font-size: 40px;
+}
+.linea{
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  font-style: italic;
+  font-weight: 500;
+  background-image: linear-gradient(to right, rgba(0,100,0,0), rgba(0,100,0,1), rgba(0,100,0,0));
+}
+#trabajo{
+  background-color: rgba(180, 255, 180, 0.6);
+  width: 20%;
+  text-align: center;
+  border: 3px solid white;
+  margin-top: 5vh;
+  margin-left: 40%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  transition: background-color 500ms, border-color 500ms;
+}
+#trabajo:hover{
+  background-color: green;
+  border-color: green;
+}
+#trabajo span{
+  color: black;
+  font-weight: 600;
+}
